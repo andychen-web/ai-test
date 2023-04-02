@@ -51,17 +51,15 @@ function App() {
   }, [pathname]);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/destination" element={<Destination />} />
-        <Route path="/our-focus" element={<OurFocus />} />
-        <Route path="/trip-type" element={<TripType />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/destination" element={<Destination />} />
+      <Route path="/our-focus" element={<OurFocus />} />
+      <Route path="/trip-type" element={<TripType />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 export default App;
