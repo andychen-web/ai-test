@@ -1,0 +1,20 @@
+html {
+  font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
+}
+.font-lithos-pro {
+  font-family: "Roboto", sans-serif !important;
+}
+.small-text {
+  font-size: 35px !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
