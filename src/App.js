@@ -12,6 +12,7 @@ import OurFocus from "./pages/Focus";
 import TripType from "./pages/TripType";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import TTSDemo from "./pages/TTSDemo";
 import { useEffect } from "react";
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       <Route path="/trip-type" element={<TripType />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/tts" element={<TTSDemo />} />
     </Routes>
   );
 }
