@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-test/static/css/main.1c14ff6c.css",
+    "main.js": "/ai-test/static/js/main.e63394aa.js",
+    "index.html": "/ai-test/index.html",
+    "main.1c14ff6c.css.map": "/ai-test/static/css/main.1c14ff6c.css.map",
+    "main.e63394aa.js.map": "/ai-test/static/js/main.e63394aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c14ff6c.css",
+    "static/js/main.e63394aa.js"
+  ]
+}
